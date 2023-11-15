@@ -272,6 +272,9 @@ justify-content: center;
     .h1box1contact{
         font-size: 1.7rem!important;
     }
+    .about-naslov{
+        font-size: 1.7rem!important;
+    }
 }
 @media (max-width: 768px) {
     .gridnmb1, .container-grid3, .about-gridnmb1{
