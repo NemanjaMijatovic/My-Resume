@@ -1,0 +1,440 @@
+.headerfirstclass {
+    background-color: #191a1b;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 1100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-grid{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.gridnmb1{
+    width: 1100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 325px;
+    column-gap: 20px;
+}
+.container-grid3{
+    width: 1100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 0.37fr 1fr;
+    grid-template-rows: 400px;
+    column-gap: 20px;
+}
+.button {
+    margin-right: 30px;
+    height: 45px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: black;
+    transition-duration: 0.3s;
+    font-size: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.button1:hover {
+    background-color: rgb(189, 18, 18);
+}
+.headerButtonContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button-paragraph {
+    padding: 0;
+    margin: 0;
+    margin-left: 2px;
+    
+}
+.mojaslika{
+    border-radius: 10px;
+    padding: 5px;
+    height: 300px;
+}
+.box {
+    border-radius: 25px;
+    text-align: center;
+}
+.box1 {
+    background-color: #191a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box2 {
+    background-color: #191a1b;
+}
+.box3 {
+    background-color: #191a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box4 {
+    background-color: #191a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1h2{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.box1h1 {
+    color: red;
+    font-weight: 800;
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+}
+.nav-item{
+    margin-right: 30px;
+
+}
+.box3naslov {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+}
+.box3txt {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+}
+.projectbutton {
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(189, 18, 18);
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+    width: 180px;
+    border: 1px solid black;
+}
+.projectbutton:hover{
+    background-color: red;
+}
+.aboutbutton{
+     border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(189, 18, 18);
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid black;
+    width: 180px;
+    opacity: 0.6    ;
+}
+.aboutbutton:hover{
+ background-color: red;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box4txt{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+.gridnmb2 {
+    margin-top: 20px;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.about-gridnmb1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1.7;
+    max-width: 1100px;
+    width: 95%;
+    row-gap: 20px; 
+    column-gap: 25px;
+    
+}
+.aboutbox1{
+    background-color: #191a1b;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbox2{
+    background-color: #191a1b;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbox3{
+    background-color: #191a1b;
+    border-radius: 25px;   
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.aboutslika{
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom:10px ;
+}
+.about-naslov{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.about-tekst{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+    margin: 50px 30px 30px 30px;
+}
+.containerheaderabout{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+.headeraboutfirstclass{
+ width: 1100px;
+ background-color: #191a1b;
+ border-radius: 25px;
+display: flex;
+justify-content: center;
+}
+.logopic{
+    height: 80px;
+
+}
+.buttonstorage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1020px;
+}
+
+.logocontainer{
+    display: flex;
+    justify-content: left;
+    width: 50px;
+    order: -1;
+}
+@media (max-width: 768px) {
+    .gridnmb1, .container-grid3, .about-gridnmb1{
+        grid-template-columns: 95%;
+        row-gap: 20px;
+    }
+    .box4{
+        height: 360px;
+        margin-bottom: 15px;
+
+    }
+    .about-container{
+        margin-left: 0;
+    }
+    .aboutbox3{
+        grid-row-start: 3;
+    }
+    .headeraboutfirstclass{
+        width: 500px;
+    }
+    .buttonstorage{
+        width: 300px;
+    }
+    .logocontainer{
+        order: -1;
+        margin-right: 50px;
+    }
+    .about-container{
+        width: 95%;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .gridnmb1, .container-grid3, .about-gridnmb1{
+        grid-template-columns: 95%;
+        row-gap: 20px;
+    }
+    .box4{
+        height: 360px;
+        margin-bottom: 15px;
+
+    }
+    .aboutbox3{
+        grid-row-start: 3;
+    }
+    .headeraboutfirstclass{
+        width: 500px;
+    }
+    .buttonstorage{
+        width: 300px;
+    }
+    .logocontainer{
+        order: -1;
+        margin-right: 50px;
+    }
+    .about-container{
+        width: 95%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 993px) {
+    
+    .gridnmb1, .container-grid3{
+        grid-template-columns: 95%;
+        row-gap: 20px;
+    }
+    .box4{
+        height: 360px;
+        margin-bottom: 15px;
+
+    }
+    .headeraboutfirstclass{
+        width: 900px;
+    }
+    .buttonstorage{
+        width: 600px;
+    }
+    .logocontainer{
+        order: -1;
+        margin-right: 50px;
+    }
+} 
+.link{
+color: black;
+transition-duration: 0.3s;
+width: 100px;
+margin-right: 25px;
+}
+.link:hover{
+    color:rgb(189, 18, 18) ;
+}
+
+.project-grid-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    width: 1100px;
+}
+.project-box1{
+background-color: #191a1b;
+color: white;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.project-box2{
+background-color: #191a1b;
+color: white;
+border-radius: 25px;
+grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 2;
+}
+.project-box3{
+background-color: #191a1b;  
+color: white;
+grid-row-start: 2;
+grid-row-end: 4;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.project-box4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #191a1b;  
+    color: white;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tindogphoto{
+    height: 350px;
+    border-radius: 25px;
+}
+
+    
+.project-tinderdog-button:hover{
+    background-color: rgb(185, 4, 4);
+}
+.project-tinderdog-button{
+    border: 1px solid white;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: black;
+    transition-duration: 0.3s;
+    color: white;
+}
+.paragraph-project-box3{
+margin: 20px;
+font-size: 24px;
+}
+.h1box1contact{
+    font-weight: 700;
+}
