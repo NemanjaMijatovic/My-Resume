@@ -268,6 +268,11 @@ justify-content: center;
     width: 50px;
     order: -1;
 }
+@media (max-width: 550px){
+    .h1box1contact{
+        font-size: 1.7rem!important;
+    }
+}
 @media (max-width: 768px) {
     .gridnmb1, .container-grid3, .about-gridnmb1{
         grid-template-columns: 95%;
@@ -278,6 +283,32 @@ justify-content: center;
         margin-bottom: 15px;
 
     }
+    .project-grid{
+        grid-template-columns: 1fr!important;
+    }
+    .project-box1, .project-box2, .project-box3{
+        grid-column: auto!important;
+        grid-row: auto!important;
+        margin-left: 15px;
+        margin-right: 15px;
+        max-height: 400px;
+    }
+    .project-box2{
+        display: flex;
+        justify-content: center;
+    }
+    .project-box4{
+        margin-bottom: 25px;
+        grid-column: auto!important;
+        grid-row: auto!important;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+    .project-tinderdog-button{
+        margin-bottom: 10px;
+    }
+    
     .about-container{
         margin-left: 0;
     }
@@ -285,10 +316,16 @@ justify-content: center;
         grid-row-start: 3;
     }
     .headeraboutfirstclass{
-        width: 500px;
+        width: 400px;
     }
     .buttonstorage{
         width: 300px;
+    }
+    .button{
+        width: 85px;
+    }
+    .link{
+        max-width: 75px;
     }
     .logocontainer{
         order: -1;
@@ -296,6 +333,9 @@ justify-content: center;
     }
     .about-container{
         width: 95%;
+    }
+    .h1box1contact{
+        font-size: 2.3rem;
     }
 }
 
@@ -309,14 +349,54 @@ justify-content: center;
         margin-bottom: 15px;
 
     }
+    .project-grid{
+        grid-template-columns: 1fr!important;
+    }
+    .project-box1, .project-box2, .project-box3{
+        grid-column: auto!important;
+        grid-row: auto!important;
+        width: 95%;
+        margin-left: 20px;
+        max-height: 400px;
+    }
+    .project-box4{
+        grid-column: auto!important;
+        grid-row: auto!important;
+        width: 95%;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .tindogphoto{
+        height: 400px!important;
+    }
+    .h1box1contact{
+        font-size: 3rem;
+    }
+    .project-box2{
+        display: flex;
+        justify-content: center;
+    }
+    .project-tinderdog-button{
+        margin-bottom: 10px;
+    }
+    
+    .about-container{
+        margin-left: 0;
+    }
     .aboutbox3{
         grid-row-start: 3;
     }
     .headeraboutfirstclass{
-        width: 500px;
+        width: 400px;
     }
     .buttonstorage{
         width: 300px;
+    }
+    .button{
+        width: 85px;
+    }
+    .link{
+        max-width: 75px;
     }
     .logocontainer{
         order: -1;
@@ -365,7 +445,7 @@ margin-right: 25px;
 }
 .project-grid{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 15px;
     column-gap: 15px;
@@ -386,6 +466,9 @@ border-radius: 25px;
 grid-row-start: 1;
 grid-row-end: 3;
 grid-column-start: 2;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 .project-box3{
 background-color: #191a1b;  
@@ -414,11 +497,10 @@ align-items: center;
     flex-direction: column;
 }
 .tindogphoto{
-    height: 350px;
+    height: auto;
+    width: 100%;
     border-radius: 25px;
-}
-
-    
+}  
 .project-tinderdog-button:hover{
     background-color: rgb(185, 4, 4);
 }
@@ -437,4 +519,8 @@ font-size: 24px;
 }
 .h1box1contact{
     font-weight: 700;
+}
+.paragraph-box4-project{
+    font-size: 20px;
+    margin: 10px;
 }
